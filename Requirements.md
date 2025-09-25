@@ -16,3 +16,7 @@
 ## Product requirements
 
 1. The product shall be a file that can be viewed on a web browser.
+   Status: Completed.
+
+2. The home page shall be diveded into a `header` and `body` section.
+   Status: Pending.
