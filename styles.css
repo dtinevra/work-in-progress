@@ -7,6 +7,38 @@
     box-sizing: border-box;
 }
 
+/* Custom properties (CSS variables) */
+:root {
+  --yellow: #fad000a1;
+  --pink: #FA00B7;
+  --blue: #00F8FA;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: var(--yellow);
+    color: #fff;
+    padding: 10px;
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;  /* Center align headings */
+    align-items: center;  /* Center align headings */
+}
+
+/* List item styles */
+li {
+    background-color: rgba(64, 224, 208, 0.712);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin: 0 15px;
+    }
+
+
 /* Body styles */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +47,16 @@ body {
     background-color: #000000;
     line-height: 1.6;
     margin: 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: var(--yellow);
+    position: fixed;
+    left: 0;
+    bottom: 0;      /* stick to bottom */
+    width: 100%;    /* full width */
+    padding-top: 15px;
 }
 
 /* Container */
@@ -27,14 +69,17 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    margin-bottom: 16px;
-    color: #333;
+    color: var(--pink);
+    display: flex;
+    justify-content: center;  /* Center align headings */
+    align-items: center;  /* Center align headings */
 }
 
 /* Links */
 a {
-    color: #0077cc;
+    color: var(--pink);
     text-decoration: none;
+    font-weight: bold;
 }
 a:hover {
     text-decoration: underline;
