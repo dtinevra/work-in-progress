@@ -7,10 +7,12 @@ import { ViewTask } from './modules/ui/view_task.js';
 
 function main() {
     const app = new TasksApp();
-    const task_a = app.createTask('Sample Task', 'This is a sample task.', false, ['sample', 'task']);
-    const view_a = new ViewTask(task_a);
-    view_a.render();
-    app.createTask('Another Task', 'This is another task.', true, ['another', 'task']);
+    
+    /* Render some sample tasks */
+    for (const task of app.tasks) {
+        const view = new ViewTask(task);
+        view.render(app.element);
+    }
 }
 
 
