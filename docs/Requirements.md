@@ -34,9 +34,11 @@
 
 5. Use github to "backup" project.
    Status: 
-     Pending.
+     Completed.
    Rational: 
      I want to understand pushing and pulling branches by doing it.
+   Notes:
+     Added git-hooks.md and ssh.md (required for ssh encription).
 
 6. Requirements shall have a "id", "description", "status", "rational" and 
    section as part of their definition.
