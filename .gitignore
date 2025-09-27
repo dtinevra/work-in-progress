@@ -1,0 +1,19 @@
+.vscode
+
+
+# Frontend specific ignores
+
+# dependencies
+frontend/node_modules/
+
+# build outputs
+front_end/ist/
+front_end/build/
+
+# logs
+front_end/npm-debug.log*
+front_end/yarn-debug.log*
+front_end/yarn-error.log*
+
+# environment variables
+front_end/.env
