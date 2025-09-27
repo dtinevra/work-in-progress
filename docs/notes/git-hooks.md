@@ -6,3 +6,9 @@ waiting to be renamed in order for git to start using them.
 Today I modified the `prepare-commit-msg` to check what it does. In the future
 it would be nice to start using githooks to trigger testing locally before
 pushing changes.
+
+
+To change commit text editor use the command below:
+```sh
+git config --global core.editor "nvim"
+```
