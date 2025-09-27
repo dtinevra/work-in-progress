@@ -40,3 +40,15 @@ Proposed solution:
   │
   ├── README.md
   └── .gitignore
+
+### Contract
+
+Pre-conditions (requirements):
+- At least 5 small requirements
+
+Post-contitions (results):
+- How will accountability be delivered?
+
+
+
+
